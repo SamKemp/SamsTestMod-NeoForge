@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "samstestmod:bread_slice"
+    },
+    "@": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "pattern": [
+    " # ",
+    " @ ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "samstestmod:carrot_sandwich"
+  }
+}

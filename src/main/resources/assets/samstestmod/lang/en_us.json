@@ -1,4 +1,27 @@
 {
   "item.samstestmod.tin_raw": "Raw Tin",
-  "item.samstestmod.tin_ingot": "Tin Ingot"
+  "item.samstestmod.tin_ingot": "Tin Ingot",
+  "item.samstestmod.tin_nugget": "Tin Nugget",
+
+  "item.samstestmod.bread_slice": "Slice of Bread",
+  "item.samstestmod.bread_sandwich": "Bread Sandwich",
+  "item.samstestmod.carrot_sandwich": "Carrot Sandwich",
+
+
+  "item.samstestmod.super_coal": "Super Coal",
+  "tooltip.samstestmod.super_coal": "Burn time: 150000 ticks",
+
+  "item.samstestmod.iron_chisel": "Iron Chisel",
+  "item.samstestmod.diamond_chisel": "Diamond Chisel",
+
+  "block.samstestmod.tin_block": "Block of Tin",
+  "block.samstestmod.tin_ore": "Tin Ore",
+  "block.samstestmod.tin_deepslate_ore": "Tin Deepslate Ore",
+  "block.samstestmod.tin_raw_block": "Block of Raw Tin",
+
+  "block.samstestmod.magic_block": "Magic Block",
+  "tooltip.samstestmod.magic_block": "Why does this exist?",
+
+  "creativetab.samstestmod": "Sams Test Mod",
+  "tooltip.samstestmod.press_shift": "Hold SHIFT for more information"
 }
