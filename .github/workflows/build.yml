@@ -37,3 +37,5 @@ jobs:
           # Only include this section if you wish to publish
           # your assets on GitHub.
           github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+          github-tag: mc1.21.1-workflow
+          version-type: beta
