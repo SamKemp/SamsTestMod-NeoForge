@@ -42,6 +42,5 @@ jobs:
           # your assets on GitHub.
           github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
           github-tag: mc1.21.1-0.${{ github.run_number }}.${{ github.run_attempt }}
-          name: Sams Test Mod v0.${{ github.run_number }}.${{ github.run_attempt }} for Minecraft 1.21.1
           version: mc1.12.1-0.${{ github.run_number }}.${{ github.run_attempt }}
           version-type: beta
