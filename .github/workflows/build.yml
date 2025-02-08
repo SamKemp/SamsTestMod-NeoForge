@@ -38,4 +38,5 @@ jobs:
           # your assets on GitHub.
           github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
           github-tag: mc1.21.1-workflow
+          version: mc1.12.1-${{ github.run_id }}.${{ github.run_number }}0${{ github.run_attempt }}
           version-type: beta
