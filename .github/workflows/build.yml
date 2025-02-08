@@ -22,6 +22,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
         with:
           arguments: build
+
+      - name: Rename file
+        run: mv build/libs/samstestmod-1.0.0.jar build/libs/samstestmod-0.${{ github.run_number }}.${{ github.run_attempt }}.jar
+          
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
           # Only include this section if you wish to publish
